@@ -1,0 +1,44 @@
+/**********************************
+ Practica 0201
+ Diseño de Interfaces WEB
+ Desarrollo de Aplicaciones WEB
+***********************************/
+
+/* Selector Universal */
+* { margin: 0px; padding: 0px }
+
+/* Tamaño del texto de partida sea el que el usuario define en el navegador*/
+html { font-size: 1em }
+
+/* Tamaño del texto del ítem tienda sea un 5% más grande que el de por defecto */
+#tienda { font-size: 1.07rem }
+
+/* borde sólido, de color azul y 1 píxel de grosor a todas las imágenes de la página */
+img { border: 3px solid blue }
+
+/* Elimina el subrayado de todos los enlaces de la barra de navegación */
+#nav a { text-decoration: none }
+
+/* strongs negros y con una fuente un 7% mayor que la de defecto */
+strong { color: black; font-size: 1.07rem }
+
+/* strongs dentro del contenido tienen que tener su fuente a un 10% del tamaño de partida */
+#content p > strong { color: #333333; font-size: 1.10rem }
+
+/* todos los divs vacios, fondo rojo oscuro */
+div:empty { background-color: darkred }
+
+/* los primeros párrafos la fuente más grande un 10%  */
+div + p { font-size: 1.1rem } 
+
+/* sólo en la barra de navegación, 1º y 3º empezando desde abajo, fondo mediumpurple*/
+#nav li:first-child, #nav li:nth-last-child(3) { background-color: mediumpurple}
+
+/* cuando pase por una imagen, se centre */
+img:hover { text-align:center}
+
+/* las imágenes con le en su nombre que cambien su ancho a 100px */
+img[alt*="le"] { width: 250px; }
+
+/* los elementos strong detrás de un enfatizado subrayados en negro */
+em ~ strong { text-decoration: underline; text-decoration-color: black }
