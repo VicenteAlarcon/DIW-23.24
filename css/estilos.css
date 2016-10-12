@@ -42,3 +42,15 @@ img[alt*="le"] { width: 250px; }
 
 /* los elementos strong detrás de un enfatizado subrayados en negro */
 em ~ strong { text-decoration: underline; text-decoration-color: black }
+
+/* "todos" los elementos con color #666666, menos los span 
+como el color es heredable y los span son descendientes de p, si le asigno un color a P (que es parte de "todos") y no digo nada para span, span lo hereda.
+Luego necesito especificar algo para span
+*/
+span { color: limegreen}
+
+:not(span) { color: #666666 }
+
+
+
+
