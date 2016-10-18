@@ -34,8 +34,8 @@ div + p { font-size: 1.1rem }
 /* sólo en la barra de navegación, 1º y 3º empezando desde abajo, fondo mediumpurple*/
 #nav li:first-child, #nav li:nth-last-child(3) { background-color: mediumpurple}
 
-/* cuando pase por una imagen, se centre */
-img:hover { text-align:center}
+/* cuando pase por una párrafo, se centre */
+p:hover { text-align: center }
 
 /* las imágenes con le en su nombre que cambien su ancho a 100px */
 img[alt*="le"] { width: 250px; }
@@ -51,6 +51,6 @@ span { color: limegreen}
 
 :not(span) { color: #666666 }
 
-
-
+/* cuando pase por una imagen, se centre */
+img:hover { margin: 0 50% }
 
