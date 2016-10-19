@@ -7,3 +7,16 @@
 /* reinicio márgenes */
 * { margin: 0px; padding: 0px }
 
+body
+{
+	padding-top: 20px;
+	background: url("./images/green_cup.png");
+}	
+
+#header
+{
+	font-size: 1.1em;
+	color: white;
+	border-bottom: 6px black solid;
+	background-color: #313B44;
+}
