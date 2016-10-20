@@ -12,3 +12,13 @@
 
 Alfredo Oltra (mail: [alfredo.ptcf@gmail.com](alfredo.ptcf@gmail.com) / twitter: [@aoltra](https://twitter.com/aoltra))
 
+##Autores imágenes
+
+Imagen de fondo: Alte Mo (atle.co)
+
+Iconos Home y noticias: Madebyoliver
+Icono historia: freepic
+Icono partidos: Elias Bikbulatov
+Icono tienda: Gregor Cresnar
+Icono galería: Lucy G
+
