@@ -12,7 +12,11 @@ body
 	padding-top: 20px;
 	background: url("./images/green_cup.png");
     font-size: 1em;     /* punto de partida de las fuentes */
-}	
+}
+
+strong {
+    font-size: 1.2em;
+}
 
 #header
 {
@@ -79,6 +83,7 @@ h1
 	color: white;
 }
 
+/* imágenes en la barra de navegación */
 #nav #home
 {
 	background: url("../images/casa.svg");
@@ -128,4 +133,45 @@ h1
     background-repeat: inherit;
 	background-position: inherit;
     background-size: inherit;
+}
+
+img 
+{
+    width: 220px;
+}
+
+#content 
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #AAAAAA;
+}
+
+.column
+{
+	width: 240px;
+	border: 1px lightgray solid;
+	background-color: #313B44;
+	text-align: left;
+	line-height: 1.45em;
+	padding: 5px 5px 22px 5px;
+	margin: 30px;
+	float:left;
+}	
+
+.column p
+{
+	margin-top: 20px;
+    margin-bottom: 20px;
+}	
+
+.column_header
+{
+	border-bottom: 1px solid #999999;
+    text-align: center;
+}
+
+h2
+{
+	padding: 10px;
+	font-size: 1.2em;
 }
