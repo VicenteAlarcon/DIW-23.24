@@ -150,8 +150,8 @@ img
 .column
 {
 	width: 240px;
-	border: 1px lightgray solid;
-	background-color: #313B44;
+	//border: 1px lightgray solid;
+	background-color: #69343e;
 	text-align: left;
 	line-height: 1.45em;
 	padding: 5px 5px 22px 5px;
@@ -193,6 +193,7 @@ h2
 	text-align: center;
 	background-color: #313B44;
 	padding: 15px 0px;
+    margin-bottom: 30px;
 }
 
 #footer a
