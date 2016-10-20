@@ -16,7 +16,7 @@ Alfredo Oltra (mail: [alfredo.ptcf@gmail.com](alfredo.ptcf@gmail.com) / twitter:
 
 Imagen de fondo: Alte Mo (atle.co)
 
-Iconos Home y noticias: Madebyoliver
+Iconos home y noticias: Madebyoliver
 Icono historia: freepic
 Icono partidos: Elias Bikbulatov
 Icono tienda: Gregor Cresnar
