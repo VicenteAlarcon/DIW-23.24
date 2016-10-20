@@ -40,7 +40,7 @@ h1
 {
 	font-family: 'Exo 2', sans-serif;
 	font-size: 1.1rem;
-	color: chocolate;
+	color: #7B3F00;
     overflow: hidden;
     margin-top: 10px;
     text-align: center; /* su contenido inline o inline-block se centrará como si de texto se tratara */
@@ -50,6 +50,12 @@ h1
 #nav ul
 {
     display: inline-block;
+    
+    /* lo defino aquí y heredo por simplicidad, si quiero cambiar algín valor
+    lo cambio aquí y afecta a todos */
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    background-size: 30px 30px;
 }
 
 #nav ul li 
@@ -58,16 +64,68 @@ h1
     float: left;
     margin-left: 20px;
     margin-right: 20px;
+    padding-top: 50px;
 }
 
 #nav ul li a
 {
 	text-decoration: none;
-	color: chocolate;
+	color: #7B3F00;
 }
 
 /* por encima de los elementos de la barra de navegación -> blanco */
 #nav ul li a:hover
 {
 	color: white;
+}
+
+#nav #home
+{
+	background: url("../images/casa.svg");
+    
+    /* los elementos a heredar deben estar en el padre #nav ul, ya que si están
+    en nav ul li, por especificidad "ganan" los de aquí */
+    background-repeat: inherit;
+	background-position: inherit;
+    background-size: inherit;
+}
+
+#nav #partidos
+{
+	background: url("../images/partido.svg");
+    background-repeat: inherit;
+	background-position: inherit;
+    background-size: inherit;
+}
+
+#nav #historia
+{
+	background: url("../images/historia.svg");
+    background-repeat: inherit;
+	background-position: inherit;
+    background-size: inherit;
+}
+
+#nav #noticias
+{
+	background: url("../images/noticias.svg");
+    background-repeat: inherit;
+	background-position: inherit;
+    background-size: inherit;
+}
+
+#nav #galeria
+{
+	background: url("../images/galeria.svg");
+    background-repeat: inherit;
+	background-position: inherit;
+    background-size: inherit;
+}
+
+#nav #tienda
+{
+	background: url("../images/tienda.svg");
+    background-repeat: inherit;
+	background-position: inherit;
+    background-size: inherit;
 }
