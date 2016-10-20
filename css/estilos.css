@@ -161,9 +161,16 @@ img
 
 .column p
 {
+    padding: 0 5px;
 	margin-top: 20px;
     margin-bottom: 20px;
-}	
+    text-indent: 10px;
+}
+
+.column p a 
+{
+    color: inherit; /* heredo el color y así no me preocupo si lo cambio en el párrafo */
+}
 
 .column_header
 {
