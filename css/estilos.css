@@ -14,8 +14,9 @@ body
     font-size: 1em;     /* punto de partida de las fuentes */
 }
 
-strong {
-    font-size: 1.2em;
+strong 
+{
+    font-size: 1.2em;   /* ojo!! em ya que me interesa que se proporcional a la fuente del resto de elementos */
 }
 
 #header
@@ -174,4 +175,20 @@ h2
 {
 	padding: 10px;
 	font-size: 1.2em;
+}
+
+#footer
+{
+    font-family: 'Arial', sans-serif;
+	clear: both;
+	font-size: 0.9rem;
+	color: silver;
+	text-align: center;
+	background-color: #313B44;
+	padding: 15px 0px;
+}
+
+#footer a
+{
+	color: silver;
 }
